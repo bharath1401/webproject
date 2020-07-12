@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}   
+.main{
+    position: relative;
+    margin-bottom:100px;
+    max-width:100%;
+
+}
+.text1{
+position: absolute;
+top: 20%;
+left: 35%;
+font-weight: bolder;
+text-shadow: 5px 5px rgb(7, 42, 158);
+font-family: 'Fondamento', cursive;
+font-size: 25px;
+}
+.text2{
+position: absolute;
+top: 35%;
+left: 37%;
+font-weight: bolder;
+font-size: 40px;
+font-family: 'Fredericka the Great', cursive;
+color: rgb(0, 0, 0);
+text-shadow: 2px 2px greenyellow;
+}
+.title{
+position: absolute;
+top: 50%;
+left: 37%;
+font-weight: bolder;
+font-size: 30px;
+font-family: 'Bungee Inline', cursive;  
+color: rgb(0, 0, 0);
+text-shadow: 2px 2px rgb(240, 238, 238);
+}
+.resume{
+    position:absolute;
+    top:60%;
+    left:50%;
+    padding: 10px 20px;
+    background-color:rgb(165, 42, 42);
+    border-color: black;
+    color:white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
